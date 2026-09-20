@@ -1,15 +1,16 @@
 body {
-    background-color: lightblue;
-    display: flex;
+    background-color: #20407A;
     margin: 0;
 }
 
 header {
     text-align: center;
-    justify-content: center;
-    background-color: #00ffff;
+    background-color: #0B162A;
     padding: 30px 0;
+    color: #ffffff;
 }
+
+
 
 .assignment-container {
     display: flex;
@@ -20,9 +21,9 @@ header {
 
 .assignment {
     text-align: center;
-    background-color: coral;
+    background-color: #C83803;;
     width: 350px;
-    height: 400px;
+    height: 200px;
     margin: 10px;
     padding: 15px;
     border: 2px;
@@ -33,7 +34,19 @@ header {
 }
 
 .website {
-    color: darkslategrey;
+    color: #ffffff;
     font-size: 1.75rem;
-    text-decoration: none;
+    text-decoration:none;
+    
+}
+
+.github {
+    color:#ffffff;
+    font-size: 1rem;
+    text-decoration:none;
+    
+}
+
+a:hover {
+    text-decoration:underline;
 }
